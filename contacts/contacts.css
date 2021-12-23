@@ -1,7 +1,7 @@
 .header{
     width: 1400px;
     justify-content: center;
-    margin: 0;
+    margin: 0 auto;
 }
 .header_logo_iner{
     justify-content: space-between;
