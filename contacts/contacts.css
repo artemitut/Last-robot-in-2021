@@ -297,3 +297,107 @@ a{
     color: #FFFFFF;
 
 }
+.map{
+    margin: 0 auto;
+    width: 1400px;
+    height: 400px;
+    background: url(./img_card/map.png);
+}
+.map_inner{
+    margin: 0 auto;
+    width: 1400px;
+    height: 400px;
+}
+.map_inner svg{
+    margin: 155px 0px 0px 667px;
+}
+.our_collective_header_title{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #232323;
+    width: 350px;
+}
+.our_collective{
+    width:1170px;
+    height: 784px;
+    margin: 90px auto 91px auto;
+}
+.our_collective_header_nav{
+    display: flex;
+    height: 42px;
+    margin: 31px 0px 0px 250px;
+}
+.our_collective_header{
+    display: flex;
+    width: 1170px;
+}
+.our_collective_header_nav p{
+    margin: 10px 0px 0px 50px;
+}
+.our_collective_header_nav p a{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+    opacity: 0.35;
+}
+.our_collective_header_nav_1{
+    opacity: 1;
+}
+.our_collective_header_nav_3{
+    width: 218px;
+}
+.our_collective_card{
+    display: flex;
+    width: 550px;
+    height: 226px;
+    margin:0px 50px 34px 0px;
+    padding: 0px 0px 69px 0px;
+    border-bottom: 1px solid #D0D0D0;
+    box-sizing: border-box;
+}
+.our_collective_card img{
+    width: 150px;
+    height: 150px;
+}
+.our_collective_card_name{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #323232;
+    margin: 0;
+}
+.our_collective_card_info{
+    width: 279px;
+    height: 156px;
+    margin: 0px 0px 0px 50px;
+}
+.our_collective_card_position{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;
+}
+.our_collective_card_email{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;
+    text-decoration: underline;
+    margin: 54px 0px 0px 0px;
+}
+.our_collective_cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+.our_collective_hr{
+    background: #D0D0D0;
+    width: 1170px;
+    height: 1px;
+    margin: 20px 0px 34px 0px;
+}
