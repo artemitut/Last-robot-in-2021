@@ -177,6 +177,7 @@ a{
 .navbar li a span{
     font-size: 6px; 
 }
+
 .header_main_top p a{
     font-family: 'Montserrat';
     font-size: 12px;
@@ -193,9 +194,16 @@ a{
 .header_main_top{
     width: 1400px;
     height: 93px;
-    margin: 0px 0px 0px 113px;
+    margin: 0px 113px;
 }
-.header_main_info_left_title{
+.main{
+    width: 1170px;
+    margin: 0 auto;
+}
+.main_inner{
+    display: flex;
+}
+.main_left_title{
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 31px;
@@ -203,210 +211,205 @@ a{
     text-transform: uppercase;
     color: #232323;
 }
-.header_main_info_left_addres_1, .header_main_info_left_telephone_1, .header_main_info_left_operating_time_1{
-    font-family: 'Montserrat';
-    font-size: 12px;
-    line-height: 12px;
-    color: #848484;
+.main_left{
+    width: 340px;
+    height: 378px;
 }
-.header_main_info_left_addres_2, .header_main_info_left_operating_time_2, .header_main_info_left_telephone_2{
+.main_right{
+    width: 800px;
+    margin: 0px 0px 0px 83px;
+}
+.main_flight_1_title_arrow{
+    color: #DD4053;
+    position: relative;
+    top: -20px;
+    left: 300px;
+}
+.main_flight_1:hover > .main_flight_1_content{
+    display: block;
+}
+.main_flight_1_content{
+    display: none;
+}
+.main_flight_1_number {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #323232;
+    background: #ffffff00;
+    width: 21px;
+    height: 20px;
+    padding-top: 5px;
+    padding-left: 4px;
+    margin: 0px 0px 0px 25px;
+}
+.main_flight_1_number p{
+    margin: 0;
+}
+.main_flight_1_title_text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    color: #323232;
+    width: 300px;
+    margin: 0px 0px 0px 27px;
+}
+.main_flight_1_title{
+    display: flex;
+}
+.main_flight_1_content{
+    width: 714px;
+    height: 715px;  
+}
+.main_flight_1_top_info{
     font-family: 'Montserrat';
     font-size: 16px;
     line-height: 26px;
     color: #323232;
+    width: 684px;
+    margin: 30px 0px 0px 25px;
 }
-.header_main_info_left_telephone_2 span{
+.main_flight_1_info_2{
+    font-family: 'Montserrat';
     font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #323232;
+    margin: 20px 0px 0px 25px;
 }
-.header_main_info_left_operating_time{
-    margin: 40px 0px 0px 0px;
+.main_flight_1_date{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F4F4F;
 }
-.header_main_info_left_telephone{
-    margin: 40px 0px 0px 0px;
+.main_flight_1_date li{
+    list-style: square;
 }
-.header_main_info{
-    margin: 0px 0px 0px 215px;
-    display: flex;
+.main_flight_1_timetable{
+    width: 714px;
+    height: 150px;
+    background: #F8F8F8;
+    margin: 0px 0px 0px 40px;
 }
-#name_contacts{
-    width: 370px;
-    height: 50px;
-    background: rgb(255, 255, 255);
+.main_flight_1_timetable_title{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+.main_flight_1_timetable_text_2, .main_flight_1_timetable_text_1{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 30px;
+    color: #4F4F4F;
+    width: 640px;
+}
+.main_flight_1_timetable_text_1{
+    border-bottom: 1px solid #E3E3E3;
+}
+.main_flight_1_vip{
+    width: 714px;
+    height: 235px;
     border: 1px solid #D0D0D0;
     box-sizing: border-box;
-    border-radius: 2px;
-    margin: 8px 8px;
-    padding: 16px 12px;
-    color: #C4C4C4;
-    margin: 15px auto 0px auto;
+    margin: 0px 0px 0px 40px
 }
-#name_contacts:focus{
-    background: #ffffff;
-    border: 1px solid #616161;
-}
-#name_contacts::-webkit-input-placeholder { 
+.main_flight_1_vip_title{
     font-family: 'Montserrat';
+    font-weight: 600;
     font-size: 16px;
-    line-height: 20px;
-    color: #969696;
-}
-#name_contacts:focus::-webkit-input-placeholder{
-    color: #2F2F2F;
-}
-#name_contacts:focus::-moz-placeholder{
-    color: #2F2F2F;
-}
-#name_contacts::-moz-placeholder { 
-    font-family: 'Montserrat';
-    font-size: 16px;
-    line-height: 20px;
-    color: #969696;
-}
-.header_main_info_right{
-    width: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0px 0px 0px 193px;  
-    background: #F8F8F8;
-    padding: 40px 0px 50px 0px;
-}
-.header_main_info_right_title{
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
+    line-height: 26px;
     color: #323232;
-    margin: 0 auto;
 }
-.footer_email_btn{
-    width: 370px;
+.main_flight_1_vip p{
+    width: 610px;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F4F4F;
+    margin: 6px 0px 0px 37px;
+}
+.main_flight_1_btns{
+    display: flex;
+    width: 497px;
     height: 50px;
+    margin: 30px 0px 0px 0px;
+}
+.main_flight_1_btn_1{
     background: #DD4053;
     border-radius: 2px;
-    margin: 10px 0px 0px 0px;
-    text-align: center;
-    margin: 15px auto 0px auto;
-}
-.footer_email_btn p a{
+    width: 237px;
+    height: 50px;
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
-
+    margin: 0px 30px 0px 40px;
 }
-.map{
-    margin: 0 auto;
-    width: 1400px;
-    height: 400px;
-    background: url(./img_card/map.png);
-}
-.map_inner{
-    margin: 0 auto;
-    width: 1400px;
-    height: 400px;
-}
-.map_inner svg{
-    margin: 155px 0px 0px 667px;
-}
-.our_collective_header_title{
+.main_flight_1_btn_2{
+    background: #ffffff00;
+    border-radius: 2px;
+    border: 1px solid #DD4053;
+    width: 237px;
+    height: 50px;
     font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 31px;
-    line-height: 42px;
-    text-transform: uppercase;
-    color: #232323;
-    width: 350px;
-}
-.our_collective{
-    width:1170px;
-    height: 784px;
-    margin: 90px auto 91px auto;
-}
-.our_collective_header_nav{
-    display: flex;
-    height: 42px;
-    margin: 31px 0px 0px 250px;
-}
-.our_collective_header{
-    display: flex;
-    width: 1170px;
-}
-.our_collective_header_nav p{
-    margin: 10px 0px 0px 50px;
-}
-.our_collective_header_nav p a{
-    font-family: 'Montserrat';
+    font-weight: bold;
     font-size: 16px;
-    line-height: 100%;
-    color: #000000;
-    opacity: 0.35;
+    line-height: 20px;
+    text-align: center;
+    color: #DD4053;
 }
-.our_collective_header_nav_1{
-    opacity: 1;
+.main_flight_1{
+    height: 85px;
 }
-.our_collective_header_nav_3{
-    width: 218px;
+.main_flight_1:hover{
+    height: auto;
 }
-.our_collective_card{
+.main_flight_1:hover > .main_flight_1_title > .main_flight_1_title_arrow{
+    transform: rotate(180deg);
+}
+.main_flight_1:hover > .main_flight_1_title > .main_flight_1_number{
+    background-color: #DD4053 ;
+    color:white;
+}
+.main_flight_2{
     display: flex;
-    width: 550px;
-    height: 226px;
-    margin:0px 50px 34px 0px;
-    padding: 0px 0px 69px 0px;
-    border-bottom: 1px solid #D0D0D0;
-    box-sizing: border-box;
+    height: 85px;
 }
-.our_collective_card img{
-    width: 150px;
-    height: 150px;
-}
-.our_collective_card_name{
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    color: #323232;
-    margin: 0;
-}
-.our_collective_card_info{
-    width: 279px;
-    height: 156px;
-    margin: 0px 0px 0px 50px;
-}
-.our_collective_card_position{
-    font-family: 'Montserrat';
-    font-size: 16px;
-    line-height: 22px;
-    color: #323232;
-}
-.our_collective_card_email{
-    font-family: 'Montserrat';
-    font-size: 16px;
-    line-height: 22px;
-    color: #323232;
-    text-decoration: underline;
-    margin: 54px 0px 0px 0px;
-}
-.our_collective_cards{
+.main_flight_3{
+    height: 85px;
     display: flex;
-    flex-wrap: wrap;
-    width: 1200px;
 }
-.our_collective_hr{
-    background: #D0D0D0;
-    width: 1170px;
-    height: 1px;
-    margin: 20px 0px 34px 0px;
+.main_flight_2:hover > .main_flight_1_title_arrow{
+    transform: rotate(180deg);
+    top: -50px;
+}
+.main_flight_2:hover >.main_flight_1_number{
+    background-color: #DD4053 ;
+    color:white;
+}
+.main_flight_3:hover > .main_flight_1_title_arrow{
+    transform: rotate(180deg);
+    top: -50px;
+}
+.main_flight_3:hover >.main_flight_1_number{
+    background-color: #DD4053 ;
+    color:white;
 }
 .footer{
     margin: 0 auto;
     width: 1170px;
 }
 .footer_inner{
-    padding: 120px 0px 0px 0pc;
     position: relative;
     top: 0px;
     left: -115px;
